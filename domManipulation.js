@@ -30,4 +30,13 @@ title.innerHTML = "<i>Saluatations fine shyt</i>"; // Changes text and renders H
 title.style.color = "pink"; // Changes text color to blue
 title.style.fontSize = "30px"; // Changes font size to 30px
 
+// Got an idea for the button **ignore**
+let button = document.getElementById("btn");
+
+button.addEventListener("click", function() {
+    let sound = new Audio("rizz-sounds.mp3"); // Load the sound file
+    sound.play(); // Play the sound
+});
+
+
 
