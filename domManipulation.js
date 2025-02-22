@@ -14,7 +14,7 @@
 let title = document.getElementById("title");
 
 console.log(title); // outputs html, <h1 id="title">Hello fine shyts.</h1>
-
+console.log("hello there, inspect element am i right?");
 
 // modify elements
 // with "textContent" property
